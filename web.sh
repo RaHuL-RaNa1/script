@@ -1,17 +1,17 @@
 #!/bin/bash
 
 
-yum install httpd unzip wget -y
-systemctl enable --now httpd
+sudo yum install httpd unzip wget -y
+sudo systemctl enable --now httpd
 
-wget $LINK
-unzip *.zip
-rm -rf *.zip
-mv * html
+sudo wget $LINK
+sudounzip *.zip
+sudo  -rf *.zip
+sudo mv * html
 
-rm -rf /var/www/html
-mv html /var/www/
+sudo rm -rf /var/www/html
+sudo mv html /var/www/
 
-systemctl restart httpd
-systemctl enable --now httpd
+sudo systemctl restart httpd
+sudo systemctl enable --now httpd
 
