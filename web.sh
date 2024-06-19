@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "hello $TEST":w
+echo "hello $TEST"
 wget $TEST
