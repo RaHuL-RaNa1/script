@@ -8,6 +8,6 @@ sudo systemctl enable --now httpd
 unzip *.zip
 rm -rf *.zip
 sudo rm -rf /var/www/html
-sudo mv * html
+sudo mv oxer-html html
 sudo mv html /var/www/
 
