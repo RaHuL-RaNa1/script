@@ -9,5 +9,5 @@ unzip *.zip
 rm -rf *.zip
 sudo rm -rf /var/www/html
 sudo mv * html
-mv html /var/www/
+sudo mv html /var/www/
 
