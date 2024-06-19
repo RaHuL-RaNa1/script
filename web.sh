@@ -5,7 +5,7 @@ echo "hello $TEST"
 sudo yum install httpd wget unzip -y
 sudo systemctl enable --now httpd
 sudo mkdir /var/lib/jenkins/workspace/job3/abc
-sudo cd /var/lib/jenkins/workspace/job3/abc
+sudo cd abc
 wget $TEST
 unzip *.zip
 rm -rf *.zip
