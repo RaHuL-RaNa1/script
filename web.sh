@@ -15,8 +15,7 @@ sudo rm -rf /var/www/html
 sudo mkdir -p $new_dir
 mkdir html
 sudo mv * html
-sudo cd html
-sudo mv * $new_dir/
+sudo mv html $new_dir/
 
 
  
