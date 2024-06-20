@@ -11,11 +11,10 @@ sudo wget $LINK
 sudo unzip *.zip
 sudo rm -rf *.zip
 
+sudo mv * html
 sudo rm -rf /var/www/html
+sudo cp * /var/www/html
 
- # create the configuration file
-
-# Restart Apache to apply the changes
 sudo systemctl restart httpd
 sudo systemctl enable --now httpd
 
