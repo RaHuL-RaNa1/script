@@ -11,11 +11,14 @@ sudo wget $LINK
 sudo unzip *.zip
 sudo rm -rf *.zip
 
+sudo rm -rf /var/www/html
 sudo mkdir -p $new_dir
 mkdir html
 sudo mv * html
 sudo cd html
 sudo mv * $new_dir/
+
+
  
  # create the configuration file
  cd /etc/httpd/conf.d/
