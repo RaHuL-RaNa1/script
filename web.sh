@@ -10,6 +10,7 @@ wget $TEST
 unzip *.zip
 rm -rf *.zip
 sudo rm -rf /var/www/html
+sudo mkdir html
 sudo mv * html
 sudo mv html /var/www/
 
