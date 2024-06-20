@@ -10,9 +10,9 @@ sudo rm -rf *
 sudo wget $LINK
 sudo unzip *.zip
 sudo rm -rf *.zip
-
-sudo mv * html
 sudo rm -rf /var/www/html
+mkdir html
+sudo mv * html
 sudo cp * /var/www/html
 
 sudo systemctl restart httpd
